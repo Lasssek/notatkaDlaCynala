@@ -191,7 +191,7 @@ Math.floor(Math.random() * 100) //liczba całkowita (int) z zakresu [0, 100)
 (Math.random() * 100) + 1 //liczba z zakresu [1, 100)
 ```
 > [!NOTE]  
->**Funkcja ``Math.floor()`` zaokrągluje liczbę do najbliżej lepszego całej części.**
+>**Funkcja ``Math.floor()`` zaokrągluje liczbę do całkowitej w dół.**
 
 ```js
 console.log(Math.floor(3.7)); // Wyświetli: 3
