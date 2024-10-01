@@ -183,7 +183,13 @@ console.log(Math.pow(2, 3)); // Wyświetli: 8
 ```js
 console.log(Math.random()); // Generuje liczbę losową
 ```
+>[!TIP]
+>**Możesz pomnożyć lub dodać liczbę do Math.random() aby wylosować liczbe o innym przedziale**
+```js
+Math.floor(Math.random() * 100) //liczba całkowita (int) z zakresu [0, 100)
 
+(Math.random() * 100) + 1 //liczba z zakresu [1, 100)
+```
 > [!NOTE]  
 >**Funkcja ``Math.floor()`` zaokrągluje liczbę do najbliżej lepszego całej części.**
 
