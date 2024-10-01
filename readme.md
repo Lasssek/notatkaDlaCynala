@@ -283,3 +283,6 @@ element.addEventListener('mouseup', function() {
     console.log('Uwolniono klawisz myszy');
 });
 ```
+
+>[!IMPORTANT]
+>**Wszystkich efektów myszy podanych powyżej możesz użyć równiesz w elemencie html dodajesz tylko ``on`` *na przykład* ``onmouseup``**
